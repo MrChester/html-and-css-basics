@@ -26,6 +26,18 @@ footer {
   border: 2px solid #7fc1ff;
 }
 
+h1 {
+    font-size: 18px;
+    line-height: 21.6px;
+    background-color: #ffffff;
+    border: 2px solid #ff994f;
+}
+
+h1::before {
+    content: "h1";
+    color: #ff994f;
+}
+
 section,
 nav {
     background-color: #f9f7ff;
