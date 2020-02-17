@@ -39,13 +39,17 @@ h1::before {
 }
 
 section,
-nav {
+nav,
+article,
+aside {
     background-color: #f9f7ff;
     border: 2px solid #9779ec;
 }
 
 section::before,
-nav::before {
+nav::before,
+article::before,
+aside::before {
     color: #9779ec;
 }
 
@@ -102,6 +106,14 @@ section::before {
 
 nav::before {
     content: "nav";
+}
+
+article::before {
+    content: "article";
+}
+
+aside::before {
+    content: "aside";
 }
 
 footer::before{
