@@ -26,12 +26,14 @@ footer {
   border: 2px solid #7fc1ff;
 }
 
-section{
+section,
+nav {
     background-color: #f9f7ff;
     border: 2px solid #9779ec;
 }
 
-section::before {
+section::before,
+nav::before {
     color: #9779ec;
 }
 
@@ -74,6 +76,10 @@ header::before{
 
 section::before {
     content: "section";
+}
+
+nav::before {
+    content: "nav";
 }
 
 footer::before{
