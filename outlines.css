@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+body {
+    min-width: 430px;
+    border: 2px dashed #c7e4ff;
+}
+
+html::before,
+body::before{
+    color: #7fc1ff;
+}
+
+* {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 4px;
+  }
+
+*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+*::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+}
+
+html::before {
+    content: "html";
+}
+
+body::before {
+    content: "body";
+}
