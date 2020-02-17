@@ -14,12 +14,14 @@ body {
 html::before,
 body::before,
 main::before,
-header::before {
+header::before,
+footer::before {
     color: #7fc1ff;
 }
 
 main,
-header {
+header,
+footer {
   background-color: #f3faff;
   border: 2px solid #7fc1ff;
 }
@@ -59,4 +61,8 @@ main::before {
 
 header::before{
     content: "header";
+}
+
+footer::before{
+    content: "footer";
 }
