@@ -13,11 +13,13 @@ body {
 
 html::before,
 body::before,
-main::before {
+main::before,
+header::before {
     color: #7fc1ff;
 }
 
-main {
+main,
+header {
   background-color: #f3faff;
   border: 2px solid #7fc1ff;
 }
@@ -53,4 +55,8 @@ body::before {
 
 main::before {
     content: "main";
+}
+
+header::before{
+    content: "header";
 }
