@@ -26,6 +26,15 @@ footer {
   border: 2px solid #7fc1ff;
 }
 
+section{
+    background-color: #f9f7ff;
+    border: 2px solid #9779ec;
+}
+
+section::before {
+    color: #9779ec;
+}
+
 * {
     position: relative;
     padding: 25px 25px 20px;
@@ -61,6 +70,10 @@ main::before {
 
 header::before{
     content: "header";
+}
+
+section::before {
+    content: "section";
 }
 
 footer::before{
