@@ -49,6 +49,16 @@ nav::before {
     color: #9779ec;
 }
 
+p {
+    background-color: #ffffff;
+    border: 2px solid #f36dff;
+}
+
+p::before {
+    content: "p";
+    color: #f36dff;
+}
+
 * {
     position: relative;
     padding: 25px 25px 20px;
